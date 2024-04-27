@@ -1,5 +1,6 @@
 package by.it.academy.domenikov.ui;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +19,10 @@ public class UiBaseTest {
         driver.navigate().to(url);
         wait = new WebDriverWait(driver, Duration.ofMinutes(2)).pollingEvery(Duration.ofSeconds(1));
 
+    }
+    @AfterAll
+    public static void closeBrowser(){
+        driver.quit();
     }
 
 }
