@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Beginning">
+    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Added test methods, move login test to another class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SiteLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SiteLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SiteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taf-zox-2024-itacademy" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +102,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
-      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpFlow" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpFlow.successfullSignUpFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUpTest.successfullSignUpFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taf-zox-2024-itacademy" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +117,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
-      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpFlow" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpTest" />
       <option name="METHOD_NAME" value="successfullSignUpFlow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -155,8 +159,8 @@
       <list>
         <item itemvalue="JUnit.SiteTest.loginItemCart" />
         <item itemvalue="JUnit.SiteTest" />
-        <item itemvalue="JUnit.SignUpFlow.successfullSignUpFlow" />
-        <item itemvalue="JUnit.SignUpFlow" />
+        <item itemvalue="JUnit.SignUpTest.successfullSignUpFlow" />
+        <item itemvalue="JUnit.SignUpTest" />
         <item itemvalue="Application.CustomRandomPasswordGenerator" />
       </list>
     </recent_temporary>
@@ -178,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714177348512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added locators classes">
+      <option name="closed" value="true" />
+      <created>1714211681020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714211681020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Beginning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beginning" />
+    <MESSAGE value="Added locators classes" />
+    <MESSAGE value="Added test methods, move login test to another class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test methods, move login test to another class" />
   </component>
 </project>

@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class SignUpFlow extends UiBaseTest {
+public class SignUpTest extends UiBaseTest {
     @Test
-    @DisplayName("1.The user has successfully registered")
+    @DisplayName("SignUP: 1.The user has successfully registered and logged out")
     public void successfullSignUpFlow() {
         driver.findElement(By.xpath(SignUpLocators.SIGNUP_BUTTON_XPATH)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.CREATE_NEW_ACCOUNT_LINK_XPATH))).click();
@@ -20,5 +20,17 @@ public class SignUpFlow extends UiBaseTest {
         driver.findElement(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)).click();
         String actualResult = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.ACCOUNT_DETAILS_TEXT_XPATH))).getText();
         Assertions.assertEquals(actualResult, "Account Details");
+        driver.findElement(By.xpath(SiteLocators.SIGNOUT_BTN_XPATH)).click();
+
+    }
+    @Test
+    @DisplayName("SignUP: 2. Empty email field validation")
+    public void emptyEmailValidation(){
+
+    }
+    @Test
+    @DisplayName("SignUP: 3. Empty password field validation")
+    public void emptyPasswordValidation(){
+
     }
 }
