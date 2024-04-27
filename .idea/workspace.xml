@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Beginning">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SiteLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomEmailGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomFirstNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomLastNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomPasswordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomPhoneNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomStringGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomUserNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SiteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/UiBaseTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fPtguy5sWY9VKKUmTbgGcknf5R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CustomRandomEmailGenerator.executor": "Run",
+    "Application.CustomRandomPasswordGenerator.executor": "Run",
+    "JUnit.SignUpFlow.SuccessfullSignUpFlow.executor": "Run",
+    "JUnit.SignUpFlow.executor": "Run",
+    "JUnit.SignUpFlow.successfullSignUpFlow.executor": "Run",
+    "JUnit.SiteTest.executor": "Run",
+    "JUnit.SiteTest.loginItemCart.executor": "Run",
+    "JUnit.signUpFlow.SuccessfullSignUpFlow.executor": "Run",
+    "Maven.taf-zox-2024-itacademy [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/antondomenikov/IdeaProjects/taf-zox-2024-itacademy/src/main/java/by/it/academy/domenikov/utils"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.it.academy.domenikov.ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SiteTest.loginItemCart">
+    <configuration name="CustomRandomPasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.utils.CustomRandomPasswordGenerator" />
+      <module name="taf-zox-2024-itacademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.it.academy.domenikov.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taf-zox-2024-itacademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.it.academy.domenikov.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpFlow" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpFlow.successfullSignUpFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taf-zox-2024-itacademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.it.academy.domenikov.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpFlow" />
+      <option name="METHOD_NAME" value="successfullSignUpFlow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taf-zox-2024-itacademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.it.academy.domenikov.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SiteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SiteTest.loginItemCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taf-zox-2024-itacademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.it.academy.domenikov.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SiteTest" />
+      <option name="METHOD_NAME" value="loginItemCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SiteTest.loginItemCart" />
+        <item itemvalue="JUnit.SiteTest" />
+        <item itemvalue="JUnit.SignUpFlow.successfullSignUpFlow" />
+        <item itemvalue="JUnit.SignUpFlow" />
+        <item itemvalue="Application.CustomRandomPasswordGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="" />
+      <created>1713714654318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713714654318</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginning" />
+  </component>
+</project>
