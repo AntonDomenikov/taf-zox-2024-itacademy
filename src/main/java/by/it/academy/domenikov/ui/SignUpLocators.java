@@ -7,5 +7,6 @@ public class SignUpLocators {
     final static String REGISTER_PASSWORD_FIELD_CSS_SELECTOR = "#password";
     final static String CREATE_ACCOUNT_BUTTON_XPATH = "//*[@id='mainContent']/div[1]/div/form/div[3]/button";
     final static String ACCOUNT_DETAILS_TEXT_XPATH ="//*[@id='mainContent']/div[1]/div[1]/p";
+    final static String SIGNUP_EMAIL_PASSWORD_VALIDATION_MESSAGE = "//*[@id='mainContent']/div[1]/div/form/div[1]/p";
 
 }

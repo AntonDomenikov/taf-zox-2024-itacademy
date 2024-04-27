@@ -23,24 +23,26 @@ public class SignUpTest extends UiBaseTest {
         driver.findElement(By.xpath(SiteLocators.SIGNOUT_BTN_XPATH)).click();
 
     }
+
     @Test
     @DisplayName("SignUP: 2.Empty email field validation")
-    public void signUpEmptyEmailValidation(){
+    public void signUpEmptyEmailValidation() {
         driver.findElement(By.xpath(SignUpLocators.SIGNUP_BUTTON_XPATH)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.CREATE_NEW_ACCOUNT_LINK_XPATH))).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)));
         driver.findElement(By.cssSelector(SignUpLocators.REGISTER_PASSWORD_FIELD_CSS_SELECTOR)).sendKeys(CustomRandomPasswordGenerator.generateRandomPassword(8));
         driver.findElement(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)).click();
-
+        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
     }
+
     @Test
     @DisplayName("SignUP: 3. Empty password field validation")
-    public void signUpEmptyPasswordValidation(){
+    public void signUpEmptyPasswordValidation() {
         driver.findElement(By.xpath(SignUpLocators.SIGNUP_BUTTON_XPATH)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.CREATE_NEW_ACCOUNT_LINK_XPATH))).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)));
         driver.findElement(By.cssSelector(SignUpLocators.REGISTER_EMAIL_FIELD_CSS_SELECTOR)).sendKeys(CustomRandomEmailGenerator.generateRandomEmail());
         driver.findElement(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)).click();
-
+        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
     }
 }
