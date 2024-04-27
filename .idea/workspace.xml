@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Added test methods, move login test to another class">
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignInTest.java" afterDir="false" />
+    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Change name of the test methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714229673298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change name of the test methods">
+      <option name="closed" value="true" />
+      <created>1714229808055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714229808055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +221,7 @@
     <MESSAGE value="Beginning" />
     <MESSAGE value="Added locators classes" />
     <MESSAGE value="Added test methods, move login test to another class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test methods, move login test to another class" />
+    <MESSAGE value="Change name of the test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change name of the test methods" />
   </component>
 </project>
