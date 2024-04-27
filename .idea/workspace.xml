@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Beginning">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SiteLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomEmailGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomFirstNameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomLastNameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomPasswordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomPhoneNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomStringGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/utils/CustomRandomUserNameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/UiBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +21,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AntonDomenikov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="39bbbf61-aa70-495a-839d-6d0344fddf52" />
+        <option name="url" value="https://github.com/AntonDomenikov/taf-zox-2024-itacademy.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -174,7 +170,27 @@
       <option name="presentableId" value="Default" />
       <updated>1713714654318</updated>
     </task>
+    <task id="LOCAL-00001" summary="Beginning">
+      <option name="closed" value="true" />
+      <created>1714177348512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714177348512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Beginning" />
