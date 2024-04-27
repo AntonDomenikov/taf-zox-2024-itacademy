@@ -18,4 +18,14 @@ public class SignInTest extends UiBaseTest {
         String actualResult = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.ACCOUNT_DETAILS_TEXT_XPATH))).getText();
         Assertions.assertEquals(actualResult, "Account Details");
     }
+    @Test
+    @DisplayName("SignIn: 2. Empty email field validation")
+    public void SignInEmptyEmailValidation(){
+
+    }
+    @Test
+    @DisplayName("SignIn: 3. Empty password field validation")
+    public void SignInEmptyPasswordValidation(){
+
+    }
 }

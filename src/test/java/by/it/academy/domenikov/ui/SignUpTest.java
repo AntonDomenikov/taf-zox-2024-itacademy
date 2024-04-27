@@ -25,12 +25,12 @@ public class SignUpTest extends UiBaseTest {
     }
     @Test
     @DisplayName("SignUP: 2. Empty email field validation")
-    public void emptyEmailValidation(){
+    public void signUpEmptyEmailValidation(){
 
     }
     @Test
     @DisplayName("SignUP: 3. Empty password field validation")
-    public void emptyPasswordValidation(){
+    public void signUpEmptyPasswordValidation(){
 
     }
 }
