@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Added">
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SignInLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SignInLocators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SiteLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SiteLocators.java" afterDir="false" />
+    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Removed not used util classes">
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignInTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +279,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714314592817</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added">
+      <option name="closed" value="true" />
+      <created>1714319969583</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714319969583</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Cleared not used import files">
+      <option name="closed" value="true" />
+      <created>1714320040476</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714320040476</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Removed not used util classes">
+      <option name="closed" value="true" />
+      <created>1714321313403</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714321313403</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +327,8 @@
     <MESSAGE value="Finished writing code for 2 TestMethods" />
     <MESSAGE value="Changed Readme file" />
     <MESSAGE value="Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added" />
+    <MESSAGE value="Cleared not used import files" />
+    <MESSAGE value="Removed not used util classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed not used util classes" />
   </component>
 </project>

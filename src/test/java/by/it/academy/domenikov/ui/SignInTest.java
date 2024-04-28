@@ -19,7 +19,7 @@ public class SignInTest extends UiBaseTest {
     }
     @Test
     @DisplayName("SignIn: 2. Empty email field validation")
-    public void SignInEmptyEmailValidation(){
+    public void signInEmptyEmailValidation(){
         driver.findElement(By.xpath(SignUpLocators.SIGNUP_BUTTON_XPATH)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignInLocators.LOGIN_BUTTON_XPATH)));
         driver.findElement(By.xpath(SignInLocators.LOGIN_PASSWORD_FIELD_XPATH)).sendKeys(SignInLocators.TEST_LOGIN_PASSWORD1);
@@ -29,7 +29,7 @@ public class SignInTest extends UiBaseTest {
     }
     @Test
     @DisplayName("SignIn: 3. Empty password field validation")
-    public void SignInEmptyPasswordValidation(){
+    public void signInEmptyPasswordValidation(){
         driver.findElement(By.xpath(SignUpLocators.SIGNUP_BUTTON_XPATH)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignInLocators.LOGIN_BUTTON_XPATH)));
         driver.findElement(By.cssSelector(SignInLocators.LOGIN_EMAIL_FIELD_CSS_SELECTOR)).sendKeys(SignInLocators.TEST_LOGIN_EMAIL1);
