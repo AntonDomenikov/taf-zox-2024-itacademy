@@ -1,7 +1,6 @@
 ## Project architecture
 
-The project contains two parts:
-- page object;
-- util clases;
+- UI test;
+- Utils clases;
 
 Tested site [here](https://zox.la/)
