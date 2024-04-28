@@ -1,6 +1,6 @@
 ## Project architecture
 
-- UI test;
+- UI/Api tests;
 - Utils clases;
 
 Tested site [here](https://zox.la/)
