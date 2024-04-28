@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Added closeBrowser Method">
+    <list default="true" id="55711304-2978-4ed4-9cca-72b908ae5d2c" name="Changes" comment="Finished writing code for 2 TestMethods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/api/Payload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/api/ApiBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/api/ApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SignUpLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/domenikov/ui/SignUpLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/it/academy/domenikov/ui/SignUpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +59,12 @@
   "keyToString": {
     "Application.CustomRandomEmailGenerator.executor": "Run",
     "Application.CustomRandomPasswordGenerator.executor": "Run",
+    "JUnit.ApiTests.testLogin2.executor": "Run",
+    "JUnit.SignInTest.executor": "Run",
     "JUnit.SignUpFlow.SuccessfullSignUpFlow.executor": "Run",
     "JUnit.SignUpFlow.executor": "Run",
     "JUnit.SignUpFlow.successfullSignUpFlow.executor": "Run",
+    "JUnit.SignUpTest.executor": "Run",
     "JUnit.SiteTest.executor": "Run",
     "JUnit.SiteTest.loginItemCart.executor": "Run",
     "JUnit.signUpFlow.SuccessfullSignUpFlow.executor": "Run",
@@ -76,16 +85,34 @@
       <recent name="by.it.academy.domenikov.ui" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SiteTest.loginItemCart">
-    <configuration name="CustomRandomPasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.utils.CustomRandomPasswordGenerator" />
+  <component name="RunManager" selected="JUnit.ApiTests.testLogin2">
+    <configuration name="ApiTests.testLogin2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taf-zox-2024-itacademy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.it.academy.domenikov.utils.*" />
+          <option name="PATTERN" value="by.it.academy.domenikov.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="by.it.academy.domenikov.api" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.api.ApiTests" />
+      <option name="METHOD_NAME" value="testLogin2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taf-zox-2024-itacademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.it.academy.domenikov.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
+      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignInTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,22 +128,6 @@
       <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
       <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUpTest.successfullSignUpFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taf-zox-2024-itacademy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.it.academy.domenikov.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.it.academy.domenikov.ui" />
-      <option name="MAIN_CLASS_NAME" value="by.it.academy.domenikov.ui.SignUpTest" />
-      <option name="METHOD_NAME" value="successfullSignUpFlow" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTests.testLogin2" />
+        <item itemvalue="JUnit.SignUpTest" />
+        <item itemvalue="JUnit.SignInTest" />
         <item itemvalue="JUnit.SiteTest.loginItemCart" />
         <item itemvalue="JUnit.SiteTest" />
-        <item itemvalue="JUnit.SignUpTest.successfullSignUpFlow" />
-        <item itemvalue="JUnit.SignUpTest" />
-        <item itemvalue="Application.CustomRandomPasswordGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714230394952</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished writing code for 2 TestMethods">
+      <option name="closed" value="true" />
+      <created>1714232019863</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714232019863</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +259,7 @@
     <MESSAGE value="Change name of the test methods" />
     <MESSAGE value="Added some code to the methods" />
     <MESSAGE value="Added closeBrowser Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added closeBrowser Method" />
+    <MESSAGE value="Finished writing code for 2 TestMethods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished writing code for 2 TestMethods" />
   </component>
 </project>

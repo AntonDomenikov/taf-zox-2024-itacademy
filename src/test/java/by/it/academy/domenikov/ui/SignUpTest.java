@@ -32,7 +32,7 @@ public class SignUpTest extends UiBaseTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)));
         driver.findElement(By.cssSelector(SignUpLocators.REGISTER_PASSWORD_FIELD_CSS_SELECTOR)).sendKeys(CustomRandomPasswordGenerator.generateRandomPassword(8));
         driver.findElement(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)).click();
-        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
+        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_SIGNIN_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
     }
 
     @Test
@@ -43,6 +43,6 @@ public class SignUpTest extends UiBaseTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)));
         driver.findElement(By.cssSelector(SignUpLocators.REGISTER_EMAIL_FIELD_CSS_SELECTOR)).sendKeys(CustomRandomEmailGenerator.generateRandomEmail());
         driver.findElement(By.xpath(SignUpLocators.CREATE_ACCOUNT_BUTTON_XPATH)).click();
-        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
+        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_SIGNIN_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
     }
 }

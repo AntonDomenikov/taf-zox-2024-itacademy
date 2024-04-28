@@ -15,17 +15,26 @@ public class SignInTest extends UiBaseTest {
         driver.findElement(By.cssSelector(SignInLocators.LOGIN_EMAIL_FIELD_CSS_SELECTOR)).sendKeys(SignInLocators.TEST_LOGIN_EMAIL1);
         driver.findElement(By.xpath(SignInLocators.LOGIN_PASSWORD_FIELD_XPATH)).sendKeys(SignInLocators.TEST_LOGIN_PASSWORD1);
         driver.findElement(By.xpath(SignInLocators.LOGIN_BUTTON_XPATH)).click();
-        String actualResult = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.ACCOUNT_DETAILS_TEXT_XPATH))).getText();
-        Assertions.assertEquals(actualResult, "Account Details");
+        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.ACCOUNT_DETAILS_TEXT_XPATH))).getText(), "Account Details");
     }
     @Test
     @DisplayName("SignIn: 2. Empty email field validation")
     public void SignInEmptyEmailValidation(){
+        driver.findElement(By.xpath(SignUpLocators.SIGNUP_BUTTON_XPATH)).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignInLocators.LOGIN_BUTTON_XPATH)));
+        driver.findElement(By.xpath(SignInLocators.LOGIN_PASSWORD_FIELD_XPATH)).sendKeys(SignInLocators.TEST_LOGIN_PASSWORD1);
+        driver.findElement(By.xpath(SignInLocators.LOGIN_BUTTON_XPATH)).click();
+        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_SIGNIN_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
 
     }
     @Test
     @DisplayName("SignIn: 3. Empty password field validation")
     public void SignInEmptyPasswordValidation(){
+        driver.findElement(By.xpath(SignUpLocators.SIGNUP_BUTTON_XPATH)).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignInLocators.LOGIN_BUTTON_XPATH)));
+        driver.findElement(By.cssSelector(SignInLocators.LOGIN_EMAIL_FIELD_CSS_SELECTOR)).sendKeys(SignInLocators.TEST_LOGIN_EMAIL1);
+        driver.findElement(By.xpath(SignInLocators.LOGIN_BUTTON_XPATH)).click();
+        Assertions.assertEquals(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUpLocators.SIGNUP_SIGNIN_EMAIL_PASSWORD_VALIDATION_MESSAGE))).getText(), "Please provide both an email and a password.");
 
     }
 }
